@@ -1,0 +1,64 @@
+.navSection {
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  /* background-color: green; */
+}
+
+.navbar {
+  /* margin: 0 auto; */
+  width: 90%;
+  height: 100%;
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.logoBox {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.logoImg {
+  width: auto;
+  height: 35px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1.7rem;
+  align-items: center;
+}
+
+.Link {
+  font-size: var(--small-text);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.outlineButton {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 0.8rem 1.3rem;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: var(--small-text);
+}
+
+.button {
+  background-color: transparent;
+  color: var(--black);
+  padding: 0.8rem 1.3rem;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: var(--small-text);
+}

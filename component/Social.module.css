@@ -1,0 +1,25 @@
+.socials {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.socialText {
+  color: var(--biro-blue);
+  font-size: var(--sub-title);
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socialFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}

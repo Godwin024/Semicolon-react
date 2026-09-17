@@ -1,0 +1,21 @@
+/* global brands */
+.brands {
+  padding: var(--section-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.brandLogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem 3rem;
+  margin-top: 30px;
+}
+
+.brandLogos img {
+  object-fit: contain;
+}

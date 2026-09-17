@@ -1,0 +1,30 @@
+.testimonials {
+  padding: var(--section-padding);
+  background: var(--primary-color);
+}
+
+.testimonialBox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.line {
+  background-color: var(--white);
+  height: 150px;
+  width: 4px;
+  border-radius: 50%;
+}
+
+.testimonial p {
+  font-size: var(--sub-title);
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.testimonial small {
+  font-size: var(--small-text);
+  color: var(--white);
+}

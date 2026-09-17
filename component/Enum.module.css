@@ -1,0 +1,30 @@
+
+.learnMore {
+  background: var(--light-blue);
+  padding: 5% 5% 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.learnMoreImgs {
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.biroBlue {
+  color: var(--biro-blue);
+}
+
+.learnField {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+}

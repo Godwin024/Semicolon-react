@@ -1,0 +1,21 @@
+.footerMenu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 95%;
+  margin: 0 auto;
+  padding: var(--section-padding);
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footerLinks p {
+  color: var(--biro-blue);
+}
+
+.footerLink {
+  margin-bottom: 1.5rem;
+}

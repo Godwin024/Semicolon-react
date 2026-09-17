@@ -1,0 +1,38 @@
+.newsletterSect {
+  padding: var(--section-padding);
+}
+
+.newsletter {
+  background: var(--custard);
+  border-radius: 20px;
+  padding: var(--section-padding);
+  border: 1px solid var(--primary-color);
+  margin: 10px auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.newsletter .title {
+  color: var(--primary-color);
+}
+
+.newsletter .p {
+  color: var(--biro-blue);
+}
+
+.flexForm {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 10px;
+}
